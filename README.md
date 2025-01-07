@@ -11,7 +11,9 @@ Install nvim and place these contents in ```C: / Users / <Username> / Local / Ap
 2) Go to home dir 
 ```cd ~```
 3) Go to *.config/*, if it does not exist, create it 
-```mkdir .config 
-    cd .config``` 
+```
+mkdir .config 
+cd .config
+``` 
 4) Create nvim dir inside .config 
 ```mkdir nvim```
