@@ -2,7 +2,7 @@ return {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",
 	config = function()
-		require("nvim-treesitter.install").compilers = { "zig" }
+		require("nvim-treesitter.install").compilers = { "zig" , "clang", "gcc"}
 		local config = require("nvim-treesitter.configs")
 		config.setup({
             ensure_installed = {"c", "python", "rust"},
