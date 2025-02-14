@@ -29,3 +29,5 @@ Note : MacOS default terminal does not support colors and nerd-fonts. It is bett
 3) In the root dir, create `.config` if it doesn't exist
 4) Inside `.config`, create `nvim` dir
 5) Copy the contents of this repo into the `nvim` dir
+6) Remove the zig compiler line from `lua/plugins/treesitter.lua`
+7) Save file, restart the terminal
