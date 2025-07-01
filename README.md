@@ -4,7 +4,7 @@
 Note : Zig compiler needs to be installed for tree-sitter to work properly. After that, parsers can be manually installed using ```:TSInstall <language>``` command.
 
 ### For native
-Install nvim and place these contents in ```C:/Users/<Username>/Appdata/local/nvim```
+Install nvim and place these contents in ```C:/Users/<Username>/Appdata/Local/nvim```
 
 ### For WSL
 1) Open wsl 
