@@ -18,11 +18,30 @@ return {
         scope = { enabled = true },
         scroll = { enabled = false },
         statuscolumn = { enabled = true },
+        terminal = {
+            win = {
+                position = "float",
+                width = 0.5,        -- 50% of screen width
+                height = 0.5,       -- 50% of screen height
+                row = 0.2,          -- Position from top
+                col = 0.25,         -- Position from left
+                border = "rounded", -- Optional border style
+            },
+        },
         words = { enabled = true },
         styles = {
             notification = {
                 wo = { wrap = true }, -- Wrap notifications
             },
+        },
+    },
+    keys = {
+        {
+            "<leader>tt",
+            function()
+                Snacks.terminal()
+            end,
+            desc = "Toggle Terminal",
         },
     },
 }
