@@ -4,6 +4,7 @@
 - Mason version : 2.0.1
 - Working autocomplete
 - Working LSP
+- Supports floating terminal `<leader>tt`
 - Supported languages : Python, C++, Javascript, Typescript, Rust
 
 ## Windows
