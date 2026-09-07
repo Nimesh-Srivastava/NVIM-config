@@ -6,3 +6,4 @@ vim.cmd("set number")
 vim.cmd("set relativenumber")
 vim.cmd("set cmdheight=0")
 vim.g.mapleader = " "
+vim.opt.fillchars = { eob = " " }
